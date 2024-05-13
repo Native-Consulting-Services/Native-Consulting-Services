@@ -3,6 +3,7 @@ import Feature from "./components/Feature";
 import CTA from "./components/CTA";
 import Pricing from "./components/Pricing";
 import LogoCloud from "./components/LogoCloud";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Feature />
       <CTA />
       <Pricing />
+      <Contact />
     </>
   );
 }
