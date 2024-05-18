@@ -3,7 +3,7 @@ import Feature from "./components/Feature";
 import CTA from "./components/CTA";
 import Pricing from "./components/Pricing";
 import LogoCloud from "./components/LogoCloud";
-import Contact from "./components/Contact";
+import Contact from "./components/_Contact";
 
 export default function App() {
   return (
