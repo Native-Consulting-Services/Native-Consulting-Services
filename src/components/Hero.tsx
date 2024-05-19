@@ -47,7 +47,8 @@ export default function Example() {
                 to={item.href}
                 smooth
                 duration={800}
-                className="text-sm font-semibold cursor-pointer leading-6"
+                spy={true}
+                className="cursor-pointer text-sm font-semibold leading-6"
               >
                 {item.name}
               </Link>
@@ -58,9 +59,9 @@ export default function Example() {
               to="Contact"
               smooth
               duration={800}
-              className="text-sm cursor-pointer font-semibold leading-6 inline-flex"
+              className="inline-flex cursor-pointer text-sm font-semibold leading-6"
             >
-              <EnvelopeIcon className="h-6 w-6 mr-1" aria-hidden="true" />
+              <EnvelopeIcon className="mr-1 h-6 w-6" aria-hidden="true" />
               Contact Us
             </Link>
           </div>
@@ -72,7 +73,7 @@ export default function Example() {
         >
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-300/50">
-            <div className="flex items-center justify-between -m-1.5 p-1.5">
+            <div className="-m-1.5 flex items-center justify-between p-1.5">
               <span className="sr-only">Your Company</span>
               <img className="h-8 w-auto" src={Logo} alt="Logo" />
               <button
@@ -90,22 +91,22 @@ export default function Example() {
                   {navigation.map((item) => (
                     <Link
                       key={item.name}
-                      to={item.href}
                       smooth
-                      duration={500}
-                      className="-mx-3 block cursor-pointer rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-800/50"
+                      to={item.href}
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 hover:bg-gray-800/50"
                     >
                       {item.name}
                     </Link>
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block cursor-pointer rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-gray-800/50"
+                  <Link
+                    smooth
+                    to="#ContactUs"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 hover:bg-gray-800/50"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -126,16 +127,20 @@ export default function Example() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-24">
-          <img src={Logo} alt="NCS" className="h-[30rem] w-auto mx-auto" />
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+          <img
+            src={Logo}
+            alt="NCS"
+            className="mx-auto h-[25rem] w-auto pb-12"
+          />
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              Data to enrich your online business
+              Your Native Partner in Software Solutions
             </h1>
           </div>
         </div>
         <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-40rem)]"
           aria-hidden="true"
         >
           <div
