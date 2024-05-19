@@ -1,10 +1,8 @@
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import AboutUs from "./components/AboutUs";
-import CTA from "./components/CTA";
-import Pricing from "./components/Pricing";
 import LogoCloud from "./components/LogoCloud";
-import Contact from "./components/_Contact";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -13,8 +11,6 @@ export default function App() {
       <Services />
       <AboutUs />
       <LogoCloud />
-      <CTA />
-      <Pricing />
       <Contact />
     </>
   );

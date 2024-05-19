@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  Bars3Icon,
+  EnvelopeIcon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
 
 const navigation = [
   { name: "Services", href: "Services" },
   { name: "About Us", href: "AboutUs" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Our Partners", href: "Partners" },
 ];
 
 export default function Example() {
@@ -22,12 +25,8 @@ export default function Example() {
         >
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <span className="sr-only">Native Consulting Services LLC</span>
+              <span className="text-2xl font-bold text-gray-800">NCS</span>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -52,6 +51,17 @@ export default function Example() {
                 {item.name}
               </Link>
             ))}
+          </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <Link
+              to="Contact"
+              smooth
+              duration={800}
+              className="text-sm cursor-pointer font-semibold leading-6 text-gray-900 inline-flex"
+            >
+              <EnvelopeIcon className="h-6 w-6 mr-1" aria-hidden="true" />
+              Contact Us
+            </Link>
           </div>
         </nav>
         <Dialog
@@ -91,6 +101,14 @@ export default function Example() {
                       {item.name}
                     </Link>
                   ))}
+                </div>
+                <div className="py-6">
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  >
+                    Contact Us
+                  </a>
                 </div>
               </div>
             </div>
