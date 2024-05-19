@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 html {
-  @apply bg-indigo-50;
+  @apply bg-indigo-950;
+  @apply text-white;
 }
