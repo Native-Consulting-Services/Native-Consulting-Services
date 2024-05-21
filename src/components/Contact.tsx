@@ -1,8 +1,7 @@
 import { useForm } from "@formspree/react";
 
 export default function Contact() {
-  const formSpreeId = process.env.REACT_APP_FORMSPREE_ID || "";
-  const [state, handleSubmit] = useForm(formSpreeId);
+  const [state, handleSubmit] = useForm("xjvnzowg");
 
   return (
     <div className=" relative isolate px-6 py-24 sm:py-32 lg:px-8" id="Contact">
