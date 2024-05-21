@@ -127,7 +127,7 @@ export default function Example() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-32">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-64">
           <img
             src={Logo}
             alt="NCS"
