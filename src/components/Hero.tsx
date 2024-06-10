@@ -6,7 +6,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
-import Logo from "../assets/NCS.png";
+import Logo from "../assets/NCS.webp";
 
 const navigation = [
   { name: "Services", href: "Services" },
