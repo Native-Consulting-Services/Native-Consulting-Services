@@ -13,7 +13,7 @@ export default function LogoCloud() {
           >
             <img
               className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
-              src="/src/assets/MBCI.webp"
+              src="/MBCI.webp"
               alt="Mississippi Band of Choctaw Indians"
               width={800}
               height={800}
@@ -26,7 +26,7 @@ export default function LogoCloud() {
           >
             <img
               className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
-              src="/src/assets/CIF.webp"
+              src="/CIF.webp"
               alt="Choctaw Indian Fair"
               width={1915}
               height={2073}
@@ -39,7 +39,7 @@ export default function LogoCloud() {
           >
             <img
               className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
-              src="/src/assets/1FSIC.webp"
+              src="/1FSIC.webp"
               alt="1 Family Services In Indian Country"
               width={901}
               height={863}
@@ -52,7 +52,7 @@ export default function LogoCloud() {
           >
             <img
               className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
-              src="/src/assets/CHC.webp"
+              src="/CHC.webp"
               alt="Choctaw Health Center"
               width={190}
               height={190}
@@ -65,7 +65,7 @@ export default function LogoCloud() {
           >
             <img
               className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
-              src="/src/assets/Superior.webp"
+              src="/Superior.webp"
               alt="Superior Catfish"
               width={800}
               height={190}
