@@ -6,41 +6,71 @@ export default function LogoCloud() {
           Our Partners
         </h2>
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-          <img
-            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
-            src="/src/assets/MBCI.webp"
-            alt="Mississippi Band of Choctaw Indians"
-            width={800}
-            height={800}
-          />
-          <img
-            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
-            src="/src/assets/CIF.webp"
-            alt="Choctaw Indian Fair"
-            width={1915}
-            height={2073}
-          />
-          <img
-            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
-            src="/src/assets/1FSIC.webp"
-            alt="1 Family Services In Indian Country"
-            width={901}
-            height={863}
-          />
-          <img
-            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
-            src="/src/assets/CHC.webp"
-            alt="Choctaw Health Center"
-            width={190}
-            height={190}
-          />
-          <img
-            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
-            src="/src/assets/Superior.webp"
-            alt="Superior Catfish"
-            width={800}
-            height={190}
-          />
+          <a
+            href="https://www.choctaw.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
+              src="/src/assets/MBCI.webp"
+              alt="Mississippi Band of Choctaw Indians"
+              width={800}
+              height={800}
+            />
+          </a>
+          <a
+            href="https://www.choctawindianfair.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
+              src="/src/assets/CIF.webp"
+              alt="Choctaw Indian Fair"
+              width={1915}
+              height={2073}
+            />
+          </a>
+          <a
+            href="https://www.1fsic.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
+              src="/src/assets/1FSIC.webp"
+              alt="1 Family Services In Indian Country"
+              width={901}
+              height={863}
+            />
+          </a>
+          <a
+            href="https://www.choctawhealthcenter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
+              src="/src/assets/CHC.webp"
+              alt="Choctaw Health Center"
+              width={190}
+              height={190}
+            />
+          </a>
+          <a
+            href="https://www.superiorcatfish.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="col-span-2 max-h-64 w-full object-contain hover:scale-105 lg:col-span-1"
+              src="/src/assets/Superior.webp"
+              alt="Superior Catfish"
+              width={800}
+              height={190}
+            />
+          </a>
         </div>
       </div>
     </div>

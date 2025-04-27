@@ -8,10 +8,10 @@ const serviceItems = [
   { name: "Staff Training" },
 ];
 const stats = [
-  { name: "Increased traffic", value: "50%" },
-  { name: "Decreased load time", value: "30%" },
-  { name: "Server uptime", value: "99%" },
-  { name: "Avg support response time", value: "1 Hour" },
+  { name: "Maintenance vs Salesforce", value: "80% cheaper" },
+  { name: "Implementation vs Salesforce", value: "50% cheaper" },
+  { name: "Database Support", value: "Daily Backups" },
+  { name: "Support Availability", value: "24/7" },
 ];
 
 export default function Services() {
