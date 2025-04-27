@@ -6,7 +6,6 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { Link } from "react-scroll";
-import Logo from "../assets/NCS.webp";
 
 const navigation = [
   { name: "Services", href: "Services" },
@@ -75,7 +74,7 @@ export default function Example() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-indigo-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-300/50">
             <div className="-m-1.5 flex items-center justify-between p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src={Logo} alt="Logo" />
+              <img className="h-8 w-auto" src="/NCS.webp" alt="Logo" />
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5"
@@ -129,7 +128,7 @@ export default function Example() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-64">
           <img
-            src={Logo}
+            src="NCS.webp"
             alt="NCS"
             className="mx-auto h-[25rem] w-auto pb-12"
           />
