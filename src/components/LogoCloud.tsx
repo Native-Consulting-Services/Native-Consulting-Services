@@ -3,43 +3,43 @@ export default function LogoCloud() {
     <div className="py-24 sm:py-32" id="Partners">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-3xl font-semibold leading-8 sm:text-4xl">
-          Our Clients
+          Our Partners
         </h2>
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-            alt="Transistor"
-            width={158}
-            height={48}
+            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
+            src="/src/assets/MBCI.webp"
+            alt="Mississippi Band of Choctaw Indians"
+            width={800}
+            height={800}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-            alt="Reform"
-            width={158}
-            height={48}
+            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
+            src="/src/assets/CIF.webp"
+            alt="Choctaw Indian Fair"
+            width={1915}
+            height={2073}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-            alt="Tuple"
-            width={158}
-            height={48}
+            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
+            src="/src/assets/1FSIC.webp"
+            alt="1 Family Services In Indian Country"
+            width={901}
+            height={863}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-            alt="SavvyCal"
-            width={158}
-            height={48}
+            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
+            src="/src/assets/CHC.webp"
+            alt="Choctaw Health Center"
+            width={190}
+            height={190}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-            alt="Statamic"
-            width={158}
-            height={48}
+            className="col-span-2 max-h-64 w-full object-contain lg:col-span-1"
+            src="/src/assets/Superior.webp"
+            alt="Superior Catfish"
+            width={800}
+            height={190}
           />
         </div>
       </div>

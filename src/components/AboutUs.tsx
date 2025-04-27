@@ -7,28 +7,28 @@ import {
 
 const features = [
   {
-    name: "Push to deploy",
+    name: "Cloud Migration",
     description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+      "Seamlessly migrate your infrastructure to the cloud with minimal downtime and maximum efficiency.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "SSL certificates",
+    name: "Security Audits",
     description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-    icon: LockClosedIcon,
+      "Comprehensive security assessments to identify vulnerabilities and ensure compliance with industry standards.",
+    icon: FingerPrintIcon,
   },
   {
-    name: "Simple queues",
+    name: "DevOps Automation",
     description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+      "Automate your deployment pipelines and infrastructure management for faster releases and reduced errors.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Advanced security",
+    name: "24/7 Support",
     description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
+      "Round-the-clock monitoring and support services to keep your systems running smoothly.",
+    icon: LockClosedIcon,
   },
 ];
 
@@ -38,15 +38,17 @@ export default function AboutUs() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <h2 className="text-base font-semibold leading-7 text-[#53B9ED]">
-            Deploy faster
+            Why Choose Us
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-            Everything you need to deploy your app
+            Tailored Software Solutions
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-400">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis.
-            Suspendisse eget egestas a elementum pulvinar et feugiat blandit at.
-            In mi viverra elit nunc.
+            At Native Consulting Services, we specialize in delivering tailored
+            software solutions that drive business growth and operational
+            efficiency. Our team of experts collaborates with you to implement
+            robust, scalable, and secure systems, ensuring seamless integration
+            with your existing processes.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">

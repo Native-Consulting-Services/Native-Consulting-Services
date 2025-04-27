@@ -1,9 +1,11 @@
 import Meeting from "../assets/Meeting.webp";
 const serviceItems = [
-  { name: "Web Development" },
-  { name: "Hosting Services" },
-  { name: "App Development" },
-  { name: "Specialized Technical Services" },
+  { name: "Web Applications" },
+  { name: "Content Management" },
+  { name: "CRM Solutions" },
+  { name: "ERP Solutions" },
+  { name: "Cloud Services" },
+  { name: "Staff Training" },
 ];
 const stats = [
   { name: "Increased traffic", value: "50%" },
@@ -21,7 +23,7 @@ export default function Services() {
       <img
         src={Meeting}
         alt="Meeting"
-        className="absolute inset-0 -z-10 h-full w-full object-cover object-left md:object-center opacity-50"
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-left opacity-50 md:object-center"
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -53,8 +55,9 @@ export default function Services() {
             Work with us
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            We offer a wide variety of services and can help you with all your
-            needs.
+            We're working with multiple companies to provide Web Applications,
+            CMS, CRM, and ERP solutions. We build our own services on cloud
+            servers and provide training for staff.
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
