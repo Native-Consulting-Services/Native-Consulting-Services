@@ -46,7 +46,7 @@ export default function LogoCloud() {
             />
           </a>
           <a
-            href="https://www.choctawhealthcenter.com/"
+            href="https://www.choctawhealthcenter.org/"
             target="_blank"
             rel="noopener noreferrer"
           >

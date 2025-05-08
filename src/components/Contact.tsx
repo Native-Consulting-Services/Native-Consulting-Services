@@ -21,7 +21,8 @@ export default function Contact() {
               Contact sales
             </h2>
             <p className="mt-2 text-lg leading-8 text-gray-300">
-              Aute magna irure deserunt veniam aliqua magna enim voluptate.
+              Have a question or want to learn more about our services? Fill out
+              the form below and we'll get back to you as soon as possible.
             </p>
           </div>
           <form
